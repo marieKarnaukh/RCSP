@@ -1,0 +1,147 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    border-bottom: 1px solid #ccc; /* Цвет и стиль линии разделителя */
+    padding-bottom: 30px; /* Дополнительный отступ снизу, если нужно */
+}
+
+/* Стили для логотипа */
+.logo img {
+    /*margin-right: 500px; /* Расстояние слева */
+    /*margin-bottom: 20px; /* Расстояние снизу */
+}
+
+/* Стили для меню */
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Выравнивание пунктов меню по вертикали */
+}
+
+.menu li {
+    margin-right: 80px; /* Расстояние между пунктами меню */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black; /* Цвет текста */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.profile-button button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.profile-button img {
+    width: 20px; /* Размер иконки */
+    height: 20px;
+}
+
+footer {
+    background-color: #f0f0f0; /* Цвет фона подвала */
+    padding: 20px 0; /* Внутренний отступ сверху и снизу */
+    position: fixed; /* Фиксированное позиционирование */
+    bottom: 0; /* Прикрепление к низу страницы */
+    width: 100%; /* Ширина подвала равна ширине страницы */
+}
+
+.footer {
+    width: 90%; /* Ширина контейнера подвала */
+    margin: 0 auto; /* Выравнивание по центру */
+}
+
+/* Стили для текста копирайта */
+.copyright {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Стили для значка копирайта */
+.copyright span:first-child {
+    font-size: 18px;
+    vertical-align: middle; /* Выравнивание по вертикали */
+}
+
+
+/* Стили для названия отеля */
+.hotel-name {
+    text-align: center; /* Выравнивание текста по центру */
+    /*margin-top: 100px; /* Верхний отступ для центрирования */
+    font-size: 64px; /* Размер текста */
+    color: #ED9615; /* Цвет текста */
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px; /* Размер текста */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.welcome-message {
+    text-align: center; /* Выравнивание текста по центру */
+    margin-top: 10px; /* Верхний отступ для центрирования */
+    color: white; /* Цвет текста */
+}
+
+p {
+    font-size: 16px; /* Размер текста */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.about-hotel {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white; /* Цвет текста */
+}
+
+.main-info {
+    padding-top: 100px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 100px;
+    background-image: url('background.jpg'); /* Путь к вашей фотографии */
+    background-size: cover; /* Масштабирование фотографии */
+    background-position: center; /* Позиционирование фотографии по центру */
+}
+
+.btn.my-button {
+    background-color: #ED9615; /* Задаем цвет фона */
+    color: #ffffff; /* Задаем цвет текста */
+    outline: none !important;
+}
+
+.container {
+    padding: 60px;
+}
+
+.my-img {
+    max-width: 50%;
+    height: auto;
+}
+
